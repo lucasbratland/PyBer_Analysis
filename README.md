@@ -45,7 +45,10 @@ Chart that matches what is in the challenge
 
 The first chart runs the PyBer data from dates 2019-01-01 : 2019-04-29, per the instructions in the code that we were given
 
-![Chart](/Analysis/instructions.png)
+```
+# 5. Create a new DataFrame from the pivot table DataFrame using loc on the given dates, '2019-01-01':'2019-04-29'.
+date_type_jan_apr_pivot = date_type_summary_pivot.loc['2019-01-01':'2019-04-29']
+```
 
 The second chart was created to match what is in the challenge. To do this, I used code
 
